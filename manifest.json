@@ -1,0 +1,22 @@
+{
+	"name": "Dual View Split Screen",
+	"description": "Splits the screen into two vertical tiles.",
+	"version": "1.0",
+	"manifest_version": 2,
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"permissions": [
+		"tabs",
+		"http://*/*",
+		"https://*/*"
+	],
+	"icons": { "16": "icon16x16.png",
+			   "48": "icon48x48.png",
+               "128": "icon128x128.png" },
+	"browser_action": {
+		"default_title": "Dual View Split Screen", 
+		"default_icon": "icon48x48.png"
+	}	
+}
