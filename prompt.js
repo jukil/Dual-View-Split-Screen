@@ -1,6 +1,6 @@
 function promptBox() {
 	windowLeft = prompt('Please choose your left window:', document.URL);
-    windowRight = prompt('Please choose your right window:', document.URL);
+    windowRight = prompt('Please choose your right window:', 'http://');
     if(windowLeft && windowRight) {
 		result='<frameset cols=\'*,*\'>\n<frame src=\''+windowLeft+'\'/>';
         result+='<frame src=\''+windowRight+'\'/>\n';

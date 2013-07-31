@@ -1,7 +1,7 @@
 {
 	"name": "Dual View Split Screen",
 	"description": "Splits the screen into two vertical tiles.",
-	"version": "1.0",
+	"version": "1.1",
 	"manifest_version": 2,
 	"background": {
 		"scripts": ["background.js"],
